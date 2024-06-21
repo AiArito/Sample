@@ -51,5 +51,11 @@ namespace WpfApp1
         {
             _delayAction?.Dispose();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var win = new Window1();
+            win.ShowDialog();
+        }
     }
 }
